@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33238ce789405164dbd6cd2d8669ca9a, type: 3}
+  m_Name: 5 Ruang Makan Pesta
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Happy Birthday!!!
+    speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: b803cce81825a4c4aa552f9864b1986c, type: 3}
+      actionType: 0
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 0
+    music: {fileID: 8300000, guid: fafea21ccd41e28499eb00629f26fb65, type: 3}
+    sound: {fileID: 8300000, guid: ec37cdc06f6631846930f138f35192b0, type: 3}
+    soundLoop: 0
+  - text: Terima Kasih Kalian Semua!
+    speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: e47541013e6a85b4ab3488b373c4c105, type: 3}
+      actionType: 0
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 0
+    music: {fileID: 8300000, guid: fafea21ccd41e28499eb00629f26fb65, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  - text: Make a wish!
+    speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: e47541013e6a85b4ab3488b373c4c105, type: 3}
+      actionType: 3
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 0
+    music: {fileID: 8300000, guid: fafea21ccd41e28499eb00629f26fb65, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  background: {fileID: 21300000, guid: 39eaf68ff94611c448ca95452002b005, type: 3}
+  nextScene: {fileID: 0}

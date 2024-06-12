@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33238ce789405164dbd6cd2d8669ca9a, type: 3}
+  m_Name: 2 Ruang Makan
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: hm hm hm hm...
+    speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: ebbffbfc0f23a154eaf331d74b28c455, type: 3}
+      actionType: 1
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 0
+    music: {fileID: 8300000, guid: 87fb00d5a91b8c340a2dc0f252708164, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  - text: Hari ini bawa bekel nasi sama telor dadar enak kali yaa..
+    speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: e47541013e6a85b4ab3488b373c4c105, type: 3}
+      actionType: 0
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 0
+    music: {fileID: 8300000, guid: 87fb00d5a91b8c340a2dc0f252708164, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  - text: Oke siap, waktunya berangkat
+    speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: 6c40b6ff6654d094889f9ff4a501ab3b, type: 3}
+      actionType: 2
+      startCoords: 0
+      endCoords: 500
+      speed: 2
+      coordX: 0
+      duration: 0
+    - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
+      sprite: {fileID: 21300000, guid: 6c40b6ff6654d094889f9ff4a501ab3b, type: 3}
+      actionType: 3
+      startCoords: 0
+      endCoords: 0
+      speed: 0
+      coordX: 0
+      duration: 1
+    music: {fileID: 8300000, guid: 87fb00d5a91b8c340a2dc0f252708164, type: 3}
+    sound: {fileID: 8300000, guid: 81fae3d7b961793458e820cf1f2a2fa3, type: 3}
+    soundLoop: 0
+  background: {fileID: 21300000, guid: c4f75df9dffc1004b895b52d49f71ee9, type: 3}
+  nextScene: {fileID: 11400000, guid: fd3a3c8fe1403ba498fb43cd2fc55285, type: 2}
