@@ -8,6 +8,7 @@ public class StoryScene : GameScene
     public List<Sentence> sentences;
     public Sprite background;
     public GameScene nextScene;
+    public bool isEndScene = false;
 
     [System.Serializable]
     public struct Sentence

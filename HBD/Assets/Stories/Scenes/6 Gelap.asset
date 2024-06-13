@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33238ce789405164dbd6cd2d8669ca9a, type: 3}
+  m_Name: 6 Gelap
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Mereka pun menikmati pesta ulang tahun dengan suka cita!
+    speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 438bbd21ec452df4db02ce9e75d9fe66, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  - text: Hari esok mungkin membawa cerita baru, tapi hari ini, sebuah kisah manis
+      tentang kebersamaan, tawa, dan cinta telah terukir dalam ingatan. Sampai jumpa
+      di pesta ulang tahun berikutnya.
+    speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 438bbd21ec452df4db02ce9e75d9fe66, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  - text: Tamat...
+    speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 438bbd21ec452df4db02ce9e75d9fe66, type: 3}
+    sound: {fileID: 0}
+    soundLoop: 0
+  background: {fileID: 21300000, guid: eb61937dfc708de49b10d7ae3a6534b8, type: 3}
+  nextScene: {fileID: 0}
+  isEndScene: 1

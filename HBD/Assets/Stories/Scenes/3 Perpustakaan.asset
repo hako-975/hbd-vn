@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3 Perpustakaan
   m_EditorClassIdentifier: 
   sentences:
-  - text: Huhh akhirnya sampe juga lewat tangga...
+  - text: Huhh akhirnya selesai juga kelas...
     speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}

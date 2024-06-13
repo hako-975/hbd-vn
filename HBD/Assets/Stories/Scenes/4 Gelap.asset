@@ -17,7 +17,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
-      sprite: {fileID: 21300000, guid: b803cce81825a4c4aa552f9864b1986c, type: 3}
+      sprite: {fileID: 21300000, guid: 6c40b6ff6654d094889f9ff4a501ab3b, type: 3}
       actionType: 1
       startCoords: 0
       endCoords: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 438bbd21ec452df4db02ce9e75d9fe66, type: 3}
     sound: {fileID: 0}
     soundLoop: 0
-  - text: Paa! Maa!
+  - text: Papa! Mama! Kemana semua orang?!
     speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}

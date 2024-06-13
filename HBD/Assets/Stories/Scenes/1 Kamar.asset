@@ -57,7 +57,7 @@ MonoBehaviour:
       coordX: 0
       duration: 0
     music: {fileID: 8300000, guid: 44603a9ce921a83429b847298307a7ec, type: 3}
-    sound: {fileID: 8300000, guid: 6e7d76cc0cf53e243849e131370c859f, type: 3}
+    sound: {fileID: 0}
     soundLoop: 0
   - text: Dia pun bersiap-siap untuk berangkat ke kampus
     speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
@@ -101,7 +101,7 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: 44603a9ce921a83429b847298307a7ec, type: 3}
     sound: {fileID: 0}
     soundLoop: 0
-  - text: ...
+  - text: Dia pun pergi...
     speaker: {fileID: 11400000, guid: 5f41f85557945064aabeed32ef0f8019, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 2aedcfc3d293ac24191b806085c42c28, type: 2}
@@ -125,3 +125,4 @@ MonoBehaviour:
     soundLoop: 0
   background: {fileID: 21300000, guid: 83ad36964b142b6468ab291314a347d8, type: 3}
   nextScene: {fileID: 11400000, guid: 7abd9eb8fa25a024395b1cd10b6a2c2b, type: 2}
+  isEndScene: 0

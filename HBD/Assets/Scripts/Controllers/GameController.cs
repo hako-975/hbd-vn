@@ -69,7 +69,6 @@ public class GameController : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         if (PlayerPrefsController.instance.IsHasSlotSceneLoadGame())
@@ -290,7 +289,14 @@ public class GameController : MonoBehaviour
                 if (dialogBar.IsLastSentence())
                 {
                     dialogBar.SetSentenceIndex(-1);
-                    PlayScene((currentScene as StoryScene).nextScene);
+                    if ((currentScene as StoryScene).isEndScene)
+                    {
+                        EndGame();
+                    }
+                    else
+                    {
+                        PlayScene((currentScene as StoryScene).nextScene);
+                    }
                 }
                 else
                 {
@@ -380,5 +386,10 @@ public class GameController : MonoBehaviour
     private void PlayAudio(StoryScene.Sentence sentence)
     {
         audioController.PlayAudio(sentence.music, sentence.sound, sentence.soundLoop);
+    }
+
+    private void EndGame()
+    {
+        PlayerPrefsController.instance.SetNextScene("MainMenu");
     }
 }

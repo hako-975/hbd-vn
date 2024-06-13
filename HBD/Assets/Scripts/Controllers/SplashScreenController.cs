@@ -22,7 +22,7 @@ public class SplashScreenController : MonoBehaviour
     
     public void TapToStartButton()
     {
-        PlayerPrefsController.instance.SetNextScene("MainMenu");
+        StartCoroutine(WaitSound());
     }
 
     private IEnumerator WaitAnim()
@@ -32,5 +32,11 @@ public class SplashScreenController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         tapToStartButton.GetComponent<Animator>().SetTrigger("Tap To Start Fade");
         tapToStart.raycastTarget = true;
+    }
+
+    private IEnumerator WaitSound()
+    {
+        yield return new WaitForSeconds(0.5f);
+        PlayerPrefsController.instance.SetNextScene("MainMenu");
     }
 }
